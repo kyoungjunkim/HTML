@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>글수정</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        #kkj.modify {}
+        #kkj.modify > caption {
+            float: left;
+        }
+        #kkj.modify > table {
+            width: 720px;
+        }
+        #kkj.modify > table tr {
+            width: 720px;
+            height: auto;
+        }
+        #kkj.modify > table tr:nth-child(1) {
+            border-top: 2px solid black;
+        }
+
+        #kkj.modify > table th {
+           
+            background-color: #e2e2e2;
+        }
+        #kkj.modify > table td {}
+        #kkj.modify > table input {}
+
+        #kkj.modify > .finish {}
+        #kkj.modify > .finish > .btnCancel {}
+        #kkj.modify > .finish > .btnFinish {}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>Board System v1.0</h3>
+            <p>
+                <span>홍길동</span>님 반갑습니다.
+                <a href="#">[로그아웃]</a>
+            </p>
+        </header>
+        <main id="kkj" class="modify">
+            <caption>글수정</caption>
+            <table border="0">
+                <tr>
+                    <th>제목</th>
+                    <td>제목을 입력하세요.</td>
+                </tr>
+                <tr>
+                    <th>내용</th>
+                    
+                </tr>
+                
+                <tr>
+                    
+                    <th>첨부</th>
+                    <td><input type="file" name="file"></td>
+                   
+                </tr>
+                
+            </table>
+        <div class="finish">
+            <a href="#" class="btnCancel">취소</a>
+            <a href="#" class="btnFinish">수정완료</a>
+        </div>
+            
+        </main>
+        <footer>
+            <p>@Copyleft by kkj.co.kr</p>
+        </footer>
+
+
+
+
+    </div>
+</body>
+</html>
